@@ -1,0 +1,263 @@
+body{
+    background:white;
+    color: black;
+	text-decoration:center;
+	width:1024px;
+	margin:0 auto;
+	padding:0;
+	background-color:;
+	font-family:arial;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.container{
+	text-decoration:center;
+	width:1024px;	
+}
+
+
+.navbar{
+    border-bottom: 3px solid #fff;
+    width:full;
+	text-decoration:center;
+}
+ .navbar  li a:hover{
+	background-color:orange;
+	cursor:pointer;
+}
+
+/*------------*/
+
+.page-1{
+	width:1024px;
+	height:auto;
+}
+.page-1 .quote{
+	height:80px;
+	background-color:;
+}
+.page-1 .quote h3{
+	text-align:center;
+	padding:15px;
+}
+
+/*--Slider--*/
+
+
+.slider{
+	max-width:600px;
+	border:2px solid  #29a8e2;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider .left-slide,.slider .right-slide{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #444444;
+  border-radius: 50%;
+  color:#ffffff;
+  font-size: 30px;
+  top:50%;
+  cursor: pointer;
+  margin-top: -30px;
+  text-align: center;
+  line-height: 60px;
+  
+}
+.slider .left-slide:hover,.slider .right-slide:hover{
+ box-shadow: 0px 0px 10px black;
+ background-color: #29a8e2;
+}
+
+.slider .left-slide{
+	left: 30px;
+}
+.slider .right-slide{
+	right: 30px;
+}
+.slider .slider-items .item img{
+	max-width: 100%;
+	display: block;
+	animation:zoom 1s ease;
+}
+/*
+@keyframes zoom{
+	0%{transform: scale(2);opacity: 0}
+	50%{transform: scale(2);}
+	100%{transform: scale(1);opacity:1}
+}*/
+.slider .slider-items .item{
+	display: none;
+	position: relative;
+}
+.slider .slider-items .item .caption{
+position: absolute;
+width: 100%;
+height: 60px;
+bottom: 0px;
+left: 0px;
+background-color: rgba(0,0,0,.5);
+line-height: 60px;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+
+}
+
+.slider .slider-items .item.active{
+	display: block;
+}
+
+
+/*----------*/
+.page-2{
+	width:1024px;
+	height:300px;
+}
+.context{
+	width:1024px;
+	height:100px;
+	background-color:;
+}
+.services{
+	width:1024px;
+	height:200px;
+}
+.page-2 .context h3{
+	text-align:center;
+	padding:15px;
+}
+
+.design{
+	float:left;
+	width:512px;
+	height:200px;
+	text-align:center;
+	padding:50px;
+}
+.seo{
+	float:left;
+	width:512px;
+	height:200px;
+	text-align:center;
+	padding:50px;
+}
+
+.page-3{
+	width:1024px;
+	height:700px;
+	background-color:skyblue;
+}
+.qna{
+	width:1024px;
+	height:350px;
+}
+.up_qna{
+	width:1024px;
+	text-align:center;
+}
+.up_qna h1{
+	padding:20px;
+}
+.down_qna{
+	width:1024px;
+}
+.fieldset1{
+	width:800px;
+	margin:0px auto;
+}
+.qnaform{
+	text-align:center;
+}
+.form{
+	margin-left:30px;
+	text-align:center;
+}
+.question{
+	padding:10px;
+}
+.left_contact{
+	width:400px;
+	height:350px;
+	float:left;
+	background-color:;
+}
+.contact_form{
+	margin:10px;
+}
+.socialplatform{
+	width:250px;
+	height:100px;
+	margin:20px;
+	margin-top:40px;
+}
+.socialplatform ul{
+	list-style-type:none;
+}
+.socialplatform ul li{
+	display:inline;
+}
+.socialplatform img{
+	width:32px;
+	height:32px;
+}
+.right_contact{
+	width:624px;
+	height:350px;
+	float:left;
+	background-color:green;
+}
+
+.footer{
+	width:1024px;
+	height:100px;
+	background-color:yellow;
+}
+.footer p{
+	text-align:center;
+	padding:20px;
+}
+.footer p a{
+	text-decoration:none;
+	color:black;
+}
